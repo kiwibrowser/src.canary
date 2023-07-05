@@ -25,11 +25,11 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          if git diff-index --quiet HEAD -- ./drawable; then
-            echo "No changes in the drawable directory. Skipping commit and push."
+          if git diff --quiet; then
+            echo "No changes in the repository. Skipping commit and push."
             echo "changes=false" >> $GITHUB_ENV
           else
-            echo "Changes detected in the drawable directory."
+            echo "Changes detected in the repository."
             echo "changes=true" >> $GITHUB_ENV
           fi
 
@@ -38,6 +38,6 @@ jobs:
         run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
-          git add drawable
-          git commit -m "Build drawable - ${{ github.workflow }}"
+          git add -A
+          git commit -m "Drawable update - ${{ github.workflow }}"
           git push origin ${{ github.ref }}

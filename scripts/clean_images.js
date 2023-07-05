@@ -25,7 +25,7 @@ function deleteTrackedImages() {
   });
   const time = new Date();
   fs.appendFileSync(
-    buildLogPath,
+    cleanLogPath,
     `\n\n${time}\nNumber of deleted files : ${count}\n=====================================`
   );
 }

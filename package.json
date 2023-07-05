@@ -1,0 +1,15 @@
+{
+  "name": "src.canary",
+  "version": "1.0.0",
+  "description": "Assets manager/builder",
+  "main": "index.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-pro": "^6.4.0"
+  },
+  "scripts": {
+    "build": "node index.js",
+    "list-img" : "./scripts/extract_images.sh"
+  },
+  "author": "d3ward",
+  "license": "BSD 3-Clause License"
+}

@@ -1,0 +1,33 @@
+name: Build and Upload Drawables
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Build with Yarn
+        run: yarn build
+
+      - name: Upload Drawables
+        uses: actions/upload-artifact@v2
+        with:
+          name: drawable
+          path: drawable
+
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add drawable
+          git commit -m "Build drawable - ${{ github.workflow }}"
+
+      - name: Push changes
+        run: git push origin ${{ github.ref }}

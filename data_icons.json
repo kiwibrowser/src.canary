@@ -1,0 +1,159 @@
+{
+  "bookmark_check_gray": {
+    "icon-name": "check",
+    "color": "@android:color/darker_gray"
+  },
+  "btn_close_white": {
+    "icon-name": "xmark-large",
+    "color": "@android:color/white"
+  },
+  "btn_left": {
+    "icon-name": "arrow-left"
+  },
+  "btn_tab_close_normal": {
+    "icon-name": "xmark",
+    "color": "#aaaaaaaa"
+  },
+  "btn_tabswitcher_modern": {
+    "icon-name": "square"
+  },
+  "btn_toolbar_hand": {
+    "icon-name": "hand"
+  },
+  "btn_toolbar_home": {
+    "icon-name": "house"
+  },
+  "btn_toolbar_reload": {
+    "icon-name": "rotate-right"
+  },
+  "ic_add_to_home_screen_r": {
+    "icon-name": "grid-2-plus"
+  },
+  "ic_adblock_mid": {
+    "icon-name": "shield-minus"
+  },
+  "ic_adblock_off": {
+    "icon-name": "shield-xmark"
+  },
+  "ic_adblock_on": {
+    "icon-name": "shield-check"
+  },
+  "ic_backup": {
+    "icon-name": "database"
+  },
+  "ic_backup_export": {
+    "icon-name": "file-export"
+  },
+  "ic_backup_import": {
+    "icon-name": "file-import"
+  },
+  "ic_bookmarks": {
+    "icon-name": "folder-bookmark"
+  },
+  "ic_checked": {
+    "icon-name": "hexagon-check"
+  },
+  "ic_clear_data": {
+    "icon-name": "trash-xmark"
+  },
+  "ic_desktop_mode": {
+    "icon-name": "desktop"
+  },
+  "ic_devtools": {
+    "icon-name": "rectangle-terminal"
+  },
+  "ic_dots": {
+    "icon-name": "ellipsis-vertical"
+  },
+  "ic_divider": {
+    "icon-name": "dash"
+  },
+  "ic_downloads": {
+    "icon-name": "folder-arrow-down"
+  },
+  "ic_exit_to_app": {
+    "icon-name": "octagon-xmark"
+  },
+  "ic_extensions": {
+    "icon-name": "puzzle"
+  },
+  "ic_find_in_page_r": {
+    "icon-name": "file-magnifying-glass"
+  },
+  "ic_history": {
+    "icon-name": "clock-rotate-left"
+  },
+  "ic_new_tab": {
+    "icon-name": "square-plus"
+  },
+  "ic_night_mode_off": {
+    "icon-name": "sun-bright"
+  },
+  "ic_night_mode_on": {
+    "icon-name": "moon"
+  },
+  "ic_passwords": {
+    "icon-name": "lock-keyhole"
+  },
+  "ic_photo_camera": {
+    "icon-name": "camera"
+  },
+  "ic_qr_code": {
+    "icon-name": "qrcode"
+  },
+  "ic_reading_list": {
+    "icon-name": "book"
+  },
+  "ic_recent_tabs": {
+    "icon-name": "rectangle-vertical-history"
+  },
+  "ic_settings": {
+    "icon-name": "gear"
+  },
+  "ic_share": {
+    "icon-name": "share-nodes"
+  },
+  "ic_translate_r": {
+    "icon-name": "language"
+  },
+  "ic_unchecked": {
+    "icon-name": "hexagon"
+  },
+  "ic_warning_white": {
+    "icon-name": "triangle-exclamation",
+    "color": "@android:color/white",
+    "type": "solid"
+  },
+  "ics_clear_data": {
+    "icon-name": "trash-xmark"
+  },
+  "ics_lite_mode": {
+    "icon-name": "bolt"
+  },
+  "ics_privacy_security": {
+    "icon-name": "user-lock"
+  },
+  "ics_services": {
+    "icon-name": "gears"
+  },
+  "ics_tab_switcher": {
+    "icon-name": "clone"
+  },
+  "ics_website_settings": {
+    "icon-name": "browser"
+  },
+  "ic_zoom_plus": {
+    "icon-name": "magnifying-glass-plus"
+  },
+  "menu_update": {
+    "icon-name": "circle-arrow-up",
+    "color": "@android:color/red",
+    "type": "solid"
+  },
+  "open_in_new_tab": {
+    "icon-name": "up-right-from-square"
+  },
+  "permission_push_notification_off": {
+    "icon-name": "bell-slash"
+  }
+}

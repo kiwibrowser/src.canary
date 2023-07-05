@@ -13,6 +13,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Install dependencies
+        run: yarn install
+        
       - name: Build drawable
         run: yarn build
 

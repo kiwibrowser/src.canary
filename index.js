@@ -7,7 +7,7 @@ const targetPath = "drawable/";
 const sourcePath = "./node_modules/@fortawesome/fontawesome-pro/svgs/";
 const padding = 8;
 const assetsFolderPath = "./chrome/"; // Specify the path to the image folder
-const buildLogPath = "build_log.log"; // Specify the path for the image log file
+const buildLogPath = "build.log"; // Specify the path for the image log file
 // Helper function to check if a file is an image file
 function isImageFile(file) {
   const imageExtensions = [".jpg", ".jpeg", ".png", ".gif"]; // Add more extensions if needed
@@ -127,4 +127,4 @@ for (const icon in data_icons) {
   generateXml(icon, svgContent, xmlFilePath);
 }
 const time = new Date()
-fs.appendFileSync(buildLogPath, `\n------------------------------------\n${time}\nCount of spotted files : ${count}\nNumber of xml icons generated : ${icount}\n------------------------------------`);
+fs.appendFileSync(buildLogPath, `\n\n${time}\nCount of spotted files : ${count}\nNumber of xml icons generated : ${icount}\n=====================================`);

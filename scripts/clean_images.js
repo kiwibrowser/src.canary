@@ -10,7 +10,7 @@ function deleteTrackedImages() {
 
   logEntries.forEach((logEntry) => {
     const lines = logEntry.trim().split("\n");
-    const replacedIcon = lines[0].match(/Icon '(.+)' replaced/)[1];
+    const replacedIcon = lines[0].match(/Icon '(.+)' replaced/)?.[1];
     const spottedFiles = lines.slice(1);
 
     spottedFiles.forEach((spottedFile) => {
@@ -26,7 +26,7 @@ function deleteTrackedImages() {
   const time = new Date();
   fs.appendFileSync(
     buildLogPath,
-    `------------------------------------\n${time}\nNumber of deleted files : ${count}\n------------------------------------`
+    `\n\n${time}\nNumber of deleted files : ${count}\n=====================================`
   );
 }
 

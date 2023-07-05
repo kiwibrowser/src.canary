@@ -16,6 +16,7 @@ jspm_packages/
 # Optional npm cache directory
 .npm
 
+
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
@@ -27,3 +28,4 @@ jspm_packages/
 .pnp.*
 
 tmp/
+.npmrc

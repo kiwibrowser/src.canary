@@ -44,7 +44,10 @@ jobs:
               echo "changes=true" >> $GITHUB_ENV
               git config user.name "GitHub Action"
               git config user.email "action@github.com"
-              git add -A
+              git add drawable
+              git add build.log
+              git add clean.log
+              git add chrome
               git commit -m "Drawable update - ${{ github.workflow }}"
               git push origin ${{ github.ref }}
             fi

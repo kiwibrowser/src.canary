@@ -22,12 +22,22 @@ jobs:
           name: drawable
           path: drawable
 
-      - name: Commit changes
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff-index --quiet HEAD -- ./drawable; then
+            echo "No changes in the drawable directory. Skipping commit and push."
+            echo "::set-output name=changes::false"
+          else
+            echo "Changes detected in the drawable directory."
+            echo "::set-output name=changes::true"
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changes == 'true'
         run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add drawable
           git commit -m "Build drawable - ${{ github.workflow }}"
-
-      - name: Push changes
-        run: git push origin ${{ github.ref }}
+          git push origin ${{ github.ref }}

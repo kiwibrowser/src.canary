@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "node index.js",
-    "list-img" : "./scripts/extract_images.sh"
+    "clean" : "node scripts/clean_images"
   },
   "author": "d3ward",
   "license": "BSD 3-Clause License"

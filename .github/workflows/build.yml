@@ -13,11 +13,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Config FA token
+        run: |
+          npm config set @fortawesome:registry https://npm.fontawesome.com/
+          echo "//npm.fontawesome.com/:_authToken=${{ secrets.FA_PACKAGE_MANAGER_TOKEN }}" >> .npmrc
+
       - name: Install dependencies
-        run: yarn install
-        
+        run: npm install
+
       - name: Build drawable
-        run: yarn build
+        run: npm run build
 
       - name: Upload Drawables
         uses: actions/upload-artifact@v2
@@ -26,7 +31,7 @@ jobs:
           path: drawable
 
       - name: Clean drawables
-        run: yarn clean
+        run: npm run clean
 
       - name: Check for changes, commits and push
         id: check_changes

@@ -27,10 +27,11 @@ jobs:
         run: |
           if git diff-index --quiet HEAD -- ./drawable; then
             echo "No changes in the drawable directory. Skipping commit and push."
-            echo "::set-output name=changes::false"
+            echo "::set-output name=changes::false" >> 
+            echo "changes=false" >> $GITHUB_ENV
           else
             echo "Changes detected in the drawable directory."
-            echo "::set-output name=changes::true"
+            echo "changes=true" >> $GITHUB_ENV
           fi
 
       - name: Commit and push changes

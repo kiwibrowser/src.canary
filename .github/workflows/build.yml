@@ -13,7 +13,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Build with Yarn
+      - name: Build drawable
         run: yarn build
 
       - name: Upload Drawables
@@ -22,22 +22,21 @@ jobs:
           name: drawable
           path: drawable
 
-      - name: Check for changes
+      - name: Clean drawables
+        run: yarn clean
+
+      - name: Check for changes, commits and push
         id: check_changes
         run: |
-          if git diff --quiet; then
-            echo "No changes in the repository. Skipping commit and push."
-            echo "changes=false" >> $GITHUB_ENV
-          else
-            echo "Changes detected in the repository."
-            echo "changes=true" >> $GITHUB_ENV
-          fi
-
-      - name: Commit and push changes
-        if: steps.check_changes.outputs.changes == 'true'
-        run: |
-          git config user.name "GitHub Action"
-          git config user.email "action@github.com"
-          git add -A
-          git commit -m "Drawable update - ${{ github.workflow }}"
-          git push origin ${{ github.ref }}
+            if git diff --quiet; then
+              echo "No changes in the repository. Skipping commit and push."
+              echo "changes=false" >> $GITHUB_ENV
+            else
+              echo "Changes detected in the repository."
+              echo "changes=true" >> $GITHUB_ENV
+              git config user.name "GitHub Action"
+              git config user.email "action@github.com"
+              git add -A
+              git commit -m "Drawable update - ${{ github.workflow }}"
+              git push origin ${{ github.ref }}
+            fi

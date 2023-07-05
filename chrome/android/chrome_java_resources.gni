@@ -7,6 +7,8 @@
 # (for f in $(find java/res/*/ -type f); do echo '  "'$f'",'; done; echo ']') >> chrome_java_resources.gni
 # git cl format
 
+include("kiwi_java_resources.gni")
+
 chrome_java_resources = [
   "java/res/anim/accelerate_quart.xml",
   "java/res/anim/activity_close_exit.xml",
@@ -669,3 +671,6 @@ chrome_java_resources = [
   "java/res/xml/search_widget_info.xml",
   "java/res/xml/tracing_preferences.xml",
 ]
+
+chrome_java_resources += kiwi_java_resources
+chrome_java_resources -= chrome_java_resources_to_remove

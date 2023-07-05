@@ -48,6 +48,6 @@ jobs:
               git add build.log
               git add clean.log
               git add chrome
-              git commit -m "Drawable update - ${{ github.workflow }}"
+              git commit -m "Drawable update - ${{ github.run_id }}"
               git push origin ${{ github.ref }}
             fi

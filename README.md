@@ -1,2 +1,2 @@
 # src.canary
-Source-code used in Kiwi Browser for Android (canary edition)
+Assets used in Kiwi Browser for Android (canary edition)

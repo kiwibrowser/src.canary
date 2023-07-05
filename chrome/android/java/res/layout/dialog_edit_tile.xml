@@ -1,0 +1,73 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/url"
+        android:inputType="textUri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:hint="http://" />
+
+<org.chromium.chrome.browser.suggestions.tile.TopSitesTileView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tile_preview"
+    android:layout_width="@dimen/tile_view_width_condensed"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_gravity="center"
+    android:paddingStart="@dimen/tile_view_padding"
+    android:paddingEnd="@dimen/tile_view_padding" >
+
+    <!-- The main icon. -->
+    <org.chromium.components.browser_ui.widget.RoundedCornerImageView
+        app:cornerRadiusTopStart="24dp"
+        app:cornerRadiusTopEnd="24dp"
+        app:cornerRadiusBottomStart="24dp"
+        app:cornerRadiusBottomEnd="24dp"
+        android:id="@+id/tile_view_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:importantForAccessibility="no" />
+
+    <!-- The touch highlight. -->
+    <View
+        android:id="@+id/tile_view_highlight"
+        android:layout_width="@dimen/tile_view_icon_size"
+        android:layout_height="@dimen/tile_view_icon_size"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/tile_view_highlight" />
+
+    <!-- Hairline border -->
+    <View
+        android:layout_width="@dimen/tile_view_icon_size"
+        android:layout_height="@dimen/tile_view_icon_size"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/tile_view_hairline_border_background" />
+
+</org.chromium.chrome.browser.suggestions.tile.TopSitesTileView>
+
+    <EditText
+        android:id="@+id/title"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.TextSmall.Secondary" />
+
+</LinearLayout>

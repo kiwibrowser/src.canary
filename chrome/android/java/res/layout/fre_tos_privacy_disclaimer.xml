@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2020 The Chromium Authors
+Use of this source code is governed by a BSD-style license that can be
+found in the LICENSE file.
+-->
+<org.chromium.components.browser_ui.widget.text.TextViewWithCompoundDrawables
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/privacy_disclaimer"
+    android:tag="privacy_disclaimer"
+    android:padding="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textAppearance="@style/TextAppearance.TextSmall.Secondary"
+    android:textColor="@color/model_selector_button_bg_color"
+    tools:showIn="@layout/lightweight_fre_tos" />

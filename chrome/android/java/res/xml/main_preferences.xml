@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2015 The Chromium Authors
+Use of this source code is governed by a BSD-style license that can be
+found in the LICENSE file.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orderingFromXml="false">
+
+    <org.chromium.chrome.browser.sync.settings.SyncPromoPreference
+        android:key="sync_promo"
+        android:order="0"/>
+<!--
+    <PreferenceCategory
+        android:key="account_and_google_services_section"
+        android:order="1"
+        android:title="@string/prefs_section_account_and_google_services"/>
+-->
+    <org.chromium.chrome.browser.sync.settings.SignInPreference
+        android:key="sign_in"
+        android:order="2"
+        android:title="@string/sign_in_to_chrome"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference
+        android:key="manage_sync"
+        android:order="3"
+        android:layout="@layout/account_management_account_row"
+        android:title="@string/sync_category_title"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference
+        android:key="google_services"
+        android:order="14"
+        android:icon="@drawable/ics_services"
+        app:iconTint="@color/default_icon_color_tint_list"
+        android:title="@string/prefs_google_services"
+        android:fragment="org.chromium.chrome.browser.sync.settings.GoogleServicesSettings"/>
+
+    <PreferenceCategory
+        android:key="basics_section"
+        android:order="5"
+        android:title="@string/prefs_section_basics"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference
+        android:fragment="org.chromium.chrome.browser.search_engines.settings.SearchEngineSettings"
+        android:key="search_engine"
+        android:order="6"
+        android:icon="@drawable/ics_search_engine"
+        app:iconTint="@color/default_icon_color_tint_list"
+        android:title="@string/search_engine_settings"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference
+        android:fragment="org.chromium.chrome.browser.password_manager.settings.PasswordSettings"
+        android:key="passwords"
+        android:order="9"
+        android:icon="@drawable/ics_passwords"
+        app:iconTint="@color/default_icon_color_tint_list"
+        android:title="@string/password_settings_title"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference
+        android:fragment="org.chromium.chrome.browser.autofill.settings.AutofillPaymentMethodsFragment"
+        android:key="autofill_payment_methods"
+        android:order="9"
+        android:icon="@drawable/ics_payments"
+        app:iconTint="@color/default_icon_color_tint_list"
+        android:title="@string/autofill_payment_methods"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference
+        android:fragment="org.chromium.chrome.browser.autofill.settings.AutofillProfilesFragment"
+        android:key="autofill_addresses"
+        android:order="9"
+        android:icon="@drawable/ics_addresses"
+        app:iconTint="@color/default_icon_color_tint_list"
+        android:title="@string/autofill_addresses_settings_title"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference
+        android:fragment="org.chromium.chrome.browser.privacy.settings.PrivacySettings"
+        android:key="privacy"
+        android:order="13"
+        android:icon="@drawable/ics_privacy_security"
+        app:iconTint="@color/default_icon_color_tint_list"
+        android:title="@string/prefs_privacy_security"/>
+<!--
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference
+        android:fragment="org.chromium.chrome.browser.safety_check.SafetyCheckSettingsFragment"
+        android:key="safety_check"
+        android:order="11"
+        android:visibility="gone"
+        android:title="@string/prefs_safety_check"/>
+-->
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference
+        android:key="notifications"
+        android:order="22"
+        android:icon="@drawable/ics_notifications"
+        app:iconTint="@color/default_icon_color_tint_list"
+        android:title="@string/prefs_notifications"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference
+        android:fragment="org.chromium.chrome.browser.settings.NightModeSettings"
+        android:key="nightmode"
+        android:order="11"
+        android:icon="@drawable/ics_night_mode"
+        android:title="@string/preferences_nightmode"
+        app:iconTint="@color/default_icon_color_tint_list"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference
+        android:fragment="org.chromium.chrome.browser.night_mode.settings.ThemeSettingsFragment"
+        android:key="ui_theme"
+        android:order="11"
+        android:icon="@drawable/ics_theme"
+        app:iconTint="@color/default_icon_color_tint_list"
+        android:title="@string/theme_settings" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference
+        android:fragment="org.chromium.chrome.browser.settings.TabSwitcherSettings"
+        android:key="tabswitcher"
+        android:order="11"
+        android:icon="@drawable/ics_tab_switcher"
+        app:iconTint="@color/default_icon_color_tint_list"
+        android:title="@string/preferences_tabswitcher"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference
+        android:fragment="org.chromium.chrome.browser.settings.ToolbarSettings"
+        android:key="toolbar_options"
+        android:order="11"
+        android:icon="@drawable/ics_toolbar_shortcut"
+        app:iconTint="@color/default_icon_color_tint_list"
+        android:title="@string/preferences_toolbar"/>
+
+    <PreferenceCategory
+        android:key="advanced_section"
+        android:order="14"
+        android:title="@string/prefs_section_advanced"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference
+        android:fragment="org.chromium.chrome.browser.homepage.settings.HomepageSettings"
+        android:key="homepage"
+        android:order="7"
+        android:icon="@drawable/ics_edit_homepage"
+        app:iconTint="@color/default_icon_color_tint_list"
+        android:title="@string/options_homepage_title"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference
+        android:fragment="org.chromium.chrome.browser.toolbar.adaptive.settings.AdaptiveToolbarPreferenceFragment"
+        android:key="toolbar_shortcut"
+        android:order="11"
+        android:icon="@drawable/ics_toolbar_shortcut"
+        app:iconTint="@color/default_icon_color_tint_list"
+        android:title="@string/toolbar_shortcut"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference
+        android:fragment="org.chromium.components.browser_ui.accessibility.AccessibilitySettings"
+        android:key="accessibility"
+        android:order="11"
+        android:icon="@drawable/ics_accessibility"
+        app:iconTint="@color/default_icon_color_tint_list"
+        android:title="@string/prefs_accessibility"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference
+        android:fragment="org.chromium.components.browser_ui.site_settings.SiteSettings"
+        android:key="content_settings"
+        android:order="15"
+        android:icon="@drawable/ics_website_settings"
+        app:iconTint="@color/default_icon_color_tint_list"
+        android:title="@string/prefs_site_settings"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference
+        android:fragment="org.chromium.chrome.browser.language.settings.LanguageSettings"
+        android:key="languages"
+        android:order="20"
+        android:icon="@drawable/ics_languages"
+        app:iconTint="@color/default_icon_color_tint_list"
+        android:title="@string/language_settings"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference
+        android:fragment="org.chromium.chrome.browser.download.settings.DownloadSettings"
+        android:key="downloads"
+        android:order="21"
+        android:icon="@drawable/ic_file_download_white_24dp"
+        app:iconTint="@color/default_icon_color_tint_list"
+        android:title="@string/menu_downloads"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference
+        android:fragment="org.chromium.chrome.browser.tracing.settings.DeveloperSettings"
+        android:key="developer"
+        android:order="22"
+        android:icon="@drawable/ics_dev_options"
+        app:iconTint="@color/default_icon_color_tint_list"
+        android:title="Developer options"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference
+        android:fragment="org.chromium.chrome.browser.about_settings.AboutChromeSettings"
+        android:key="about_chrome"
+        android:order="24"
+        android:icon="@drawable/btn_info"
+        app:iconTint="@color/default_icon_color_tint_list"
+        android:title="@string/prefs_about_chrome"/>
+
+</PreferenceScreen>

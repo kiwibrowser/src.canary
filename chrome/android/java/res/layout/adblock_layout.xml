@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:text="@string/adblock_dialog_title"
+        android:textAppearance="@style/TextAppearance.TextLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_title"
+        android:paddingBottom="10dp" />
+
+    <TextView
+        android:id="@+id/dialog_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_title"
+        android:paddingBottom="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/dialog_message">
+
+        <Button
+            android:id="@+id/dialog_option_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="@string/adblock_dialog_disable_on_this_website"
+            android:letterSpacing="0"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/dialog_option_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:letterSpacing="0"
+            android:text="@string/adblock_dialog_disable_on_all_websites" />
+    </LinearLayout>
+</RelativeLayout>

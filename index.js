@@ -3,11 +3,59 @@ const data_icons = require("./data_icons.json");
 const path = require("path");
 
 const defaultColor = "@android:color/black";
-const targetPath = "drawable/";
-const sourcePath = "./node_modules/@fortawesome/fontawesome-pro/svgs/";
-const padding = 8;
-const assetsFolderPath = "./chrome/"; // Specify the path to the image folder
-const buildLogPath = "build.log"; // Specify the path for the image log file
+
+const drawable_xml_path = "./chrome/android/java/res/drawable/";
+const fa_path = "./node_modules/@fortawesome/fontawesome-pro/svgs/";
+const chrome_root_path = "./chrome/"; // Specify the path to the image folder
+const build_log_path = "build.log"; // Specify the path for the image log file
+const gni_path = "./chrome/android/kiwi_java_resources.gni";
+
+var kiwiJavaResources;
+var chromeJavaResourcesToRemove;
+var kiwi_java_resources;
+
+function addToKiwiJavaResources(item) {
+  if (!kiwiJavaResources.includes(item)) {
+    kiwiJavaResources.push(item);
+    console.log(`Item '${item}' added to kiwiJavaResources.`);
+  } else {
+    console.log(`Item '${item}' already exists in kiwiJavaResources.`);
+  }
+}
+function addToChromeJavaResourcesToRemove(item) {
+  if (!chromeJavaResourcesToRemove.includes('"'+item+'"')) {
+    chromeJavaResourcesToRemove.push(item);
+    console.log(`Item '${item}' added to kiwiJavaResources.`);
+  } else {
+    console.log(`Item '${item}' already exists in kiwiJavaResources.`);
+  }
+}
+
+function removeFromKiwiJavaResources(item) {
+  const index = kiwiJavaResources.indexOf('"'+item+'"');
+  if (index !== -1) {
+    kiwiJavaResources.splice(index, 1);
+    console.log(`Item '${item}' removed from kiwiJavaResources.`);
+  } else {
+    console.log(`Item '${item}' does not exist in kiwiJavaResources.`);
+  }
+}
+function updateContent(ar, regex, name) {
+  const string = ar.map((item) => `    ${item}`).join(",\n");
+  //console.log(kiwi_java_resources);
+  const updatedContent = kiwi_java_resources.replace(
+    regex,
+    `${name} = [\n${string}\n]`
+  );
+  fs.writeFile(gni_path, updatedContent, "utf8", (err) => {
+    if (err) {
+      console.error("Error writing file:", err);
+      return;
+    }
+    console.log("File updated successfully!");
+  });
+}
+
 // Helper function to check if a file is an image file
 function isImageFile(file) {
   const imageExtensions = [".jpg", ".jpeg", ".png", ".gif"]; // Add more extensions if needed
@@ -33,8 +81,8 @@ function findImagesForIcon(iconName, folderPath) {
 
   return imagePaths;
 }
-let count = 0
-let icount = 0
+let count = 0;
+let icount = 0;
 
 function generateXml(icon, svgContent, xmlFilePath) {
   const pathRegex = /<path[^>]+d="([^"]+)"/;
@@ -45,7 +93,7 @@ function generateXml(icon, svgContent, xmlFilePath) {
 
   const viewBoxWidth = viewBoxValues[2];
   const viewBoxHeight = viewBoxValues[3];
-  console.log(`------ ${pathMatch} ------`);
+  //console.log(`------ ${pathMatch} ------`);
   if (!viewBoxMatch || !pathMatch || viewBoxValues.length < 4) {
     console.log(`Invalid SVG content for ${icon}`);
     return;
@@ -89,42 +137,74 @@ function generateXml(icon, svgContent, xmlFilePath) {
 </vector>`;
 
   fs.writeFileSync(xmlFilePath, xmlContent);
-  icount++
+  icount++;
   console.log(`Generated: ${xmlFilePath}`);
-
+  addToKiwiJavaResources('xmlFilePath')
   // Log the replaced icon names and spotted files
   const logEntry = `Icon '${icon}' replaced by '${xmlFilePath}', spotted files:\n`;
-  const imagePaths = findImagesForIcon(icon, assetsFolderPath);
-console.log(imagePaths); 
+  const imagePaths = findImagesForIcon(icon, chrome_root_path);
+
   const spottedFiles = imagePaths.filter((imagePath) =>
     imagePath.includes(icon)
   );
 
   if (spottedFiles.length > 0) {
-    count+=spottedFiles.length
+    count += spottedFiles.length;
     const spottedFilesLog = spottedFiles.join("\n");
+
+    spottedFiles.map((item) => {
+      removeFromKiwiJavaResources(item.replace('./chrome/android/',''))
+      addToChromeJavaResourcesToRemove(item.replace('./chrome/android/',''))
+    });
     const logContent = `${logEntry}${spottedFilesLog}\n\n`;
-    fs.appendFileSync(buildLogPath, logContent);
+    fs.appendFileSync(build_log_path, logContent);
   }
 }
 
-for (const icon in data_icons) {
-  const i = data_icons[icon];
-  let type = i.type;
-  if (!type) type = "light";
-  const xmlFilePath = targetPath + icon + ".xml";
-  const svgPath = sourcePath + type + "/" + `${i["icon-name"]}.svg`;
-  console.log(`------ ${icon} ------`);
-  console.log(`Processing: ${svgPath}`);
+try {
+  kiwi_java_resources = fs.readFileSync(gni_path, "utf8").toString();
+  console.log(kiwi_java_resources)
 
-  if (!fs.existsSync(svgPath)) {
-    console.log(`Source doesn't exist: ${svgPath}`);
-    process.exit();
+  // Use regex to find the arrays
+  const regex1 = /kiwi_java_resources\s*=\s*\[([\s\S]*?)\]/;
+  const regex2 = /chrome_java_resources_to_remove\s*=\s*\[([\s\S]*?)\]/;
+  const match1 = kiwi_java_resources.match(regex1);
+  const match2 = kiwi_java_resources.match(regex2);
+  console.log(kiwi_java_resources)
+  if (!match1 || !match2) return console.error("Arrays not found in file.");
+
+  // Parse the first array into an actual array
+  // Extract the array string and parse it into an actual array
+  const arrayString1 = match1[1];
+  const arrayString2 = match2[1];
+  kiwiJavaResources = arrayString1.split(/\s*,\s*/).map((item) => item.trim());
+  chromeJavaResourcesToRemove = arrayString2.split(/\s*,\s*/).map((item) => item.trim());
+  
+  for (const icon in data_icons) {
+    const i = data_icons[icon];
+    let type = i.type;
+    if (!type) type = "light";
+    const xmlFilePath = drawable_xml_path + icon + ".xml";
+    const svgPath = fa_path + type + "/" + `${i["icon-name"]}.svg`;
+    console.log(`------ ${icon} ------`);
+    console.log(`Processing: ${svgPath}`);
+
+    if (!fs.existsSync(svgPath)) {
+      console.log(`Source doesn't exist: ${svgPath}`);
+      process.exit();
+    }
+
+    const svgContent = fs.readFileSync(svgPath, "utf-8");
+
+    generateXml(icon, svgContent, xmlFilePath);
   }
-
-  const svgContent = fs.readFileSync(svgPath, "utf-8");
-
-  generateXml(icon, svgContent, xmlFilePath);
+  const time = new Date();
+  fs.appendFileSync(
+    build_log_path,
+    `\n\n${time}\nCount of spotted files : ${count}\nNumber of xml icons generated : ${icount}\n=====================================`
+  );
+  //console.log(kiwiJavaResources);
+  updateContent(kiwiJavaResources, regex1, "kiwi_java_resources");
+} catch (error) {
+  console.log(error);
 }
-const time = new Date()
-fs.appendFileSync(buildLogPath, `\n\n${time}\nCount of spotted files : ${count}\nNumber of xml icons generated : ${icount}\n=====================================`);

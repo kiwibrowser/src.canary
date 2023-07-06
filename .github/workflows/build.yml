@@ -3,7 +3,7 @@ name: Build and Upload Drawables
 on:
   push:
     branches:
-      - main
+      - main_t
 
 jobs:
   build:
@@ -29,9 +29,6 @@ jobs:
         with:
           name: drawable
           path: drawable
-
-      - name: Clean drawables
-        run: npm run clean
 
       - name: Check for changes, commits and push
         id: check_changes

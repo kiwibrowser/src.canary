@@ -2,7 +2,7 @@ const fs = require("fs");
 const gni_path = "./chrome/android/kiwi_java_resources.gni";
 const regex2 = /chrome_java_resources_to_remove\s*=\s*\[([\s\S]*?)\]/;
 const chrome_root_path = "./chrome/android/"; // Specify the path to the image folder
-const cleanLogPath = "tmp/clean.log"; // Specify the path for the deleted images log file
+const cleanLogPath = "clean.log"; // Specify the path for the deleted images log file
 let count = 0;
 
 try {
@@ -24,8 +24,8 @@ try {
             count++;
           }
       });
+      const time = new Date();
       if(count>0){
-        const time = new Date();
         fs.appendFileSync(
             cleanLogPath,
             `\n\n${time}\nNumber of deleted files : ${count}\n=====================================`

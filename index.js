@@ -7,7 +7,7 @@ const defaultColor = "@android:color/black";
 const drawable_xml_path = "./chrome/android/java/res/drawable/";
 const fa_path = "./node_modules/@fortawesome/fontawesome-pro/svgs/";
 const chrome_root_path = "./chrome/"; // Specify the path to the image folder
-const build_log_path = "tmp/build.log"; // Specify the path for the image log file
+const build_log_path = "build.log"; // Specify the path for the image log file
 const gni_path = "./chrome/android/kiwi_java_resources.gni";
 
 var kiwiJavaResources;
@@ -238,7 +238,7 @@ try {
   const time = new Date();
   fs.appendFileSync(
     build_log_path,
-    `\n\n${time}\nCount of spotted files : ${count}\nNumber of xml icons generated : ${icount}\n=====================================`
+    `\n${time}\nCount of spotted files : ${count}\nNumber of xml icons generated : ${icount}\n=====================================\n\n\n`
   );
   //console.log(kiwiJavaResources);
   updateContent();

@@ -186,4 +186,29 @@ Number of deleted files : 5
 
 Fri Jul 07 2023 09:07:11 GMT+0000 (Coordinated Universal Time)
 Number of deleted files : 16
+===================================== Deleted: ./chrome/android/java/res/drawable/ic_incognito.xml
+ Deleted: ./chrome/android/java/res/drawable-hdpi/ics_payments.png
+ Deleted: ./chrome/android/java/res/drawable-mdpi/ics_payments.png
+ Deleted: ./chrome/android/java/res/drawable-xhdpi/ics_payments.png
+ Deleted: ./chrome/android/java/res/drawable-xxhdpi/ics_payments.png
+ Deleted: ./chrome/android/java/res/drawable-xxxhdpi/ics_payments.png
+ Deleted: ./chrome/android/java/res/drawable-hdpi/ics_search_engine.png
+ Deleted: ./chrome/android/java/res/drawable-mdpi/ics_search_engine.png
+ Deleted: ./chrome/android/java/res/drawable-xhdpi/ics_search_engine.png
+ Deleted: ./chrome/android/java/res/drawable-xxhdpi/ics_search_engine.png
+ Deleted: ./chrome/android/java/res/drawable-xxxhdpi/ics_search_engine.png
+ Deleted: ./chrome/android/java/res/drawable-hdpi/ics_theme.png
+ Deleted: ./chrome/android/java/res/drawable-mdpi/ics_theme.png
+ Deleted: ./chrome/android/java/res/drawable-xhdpi/ics_theme.png
+ Deleted: ./chrome/android/java/res/drawable-xxhdpi/ics_theme.png
+ Deleted: ./chrome/android/java/res/drawable-xxxhdpi/ics_theme.png
+ Deleted: ./chrome/android/java/res/drawable-hdpi/ics_toolbar_shortcut.png
+ Deleted: ./chrome/android/java/res/drawable-mdpi/ics_toolbar_shortcut.png
+ Deleted: ./chrome/android/java/res/drawable-xhdpi/ics_toolbar_shortcut.png
+ Deleted: ./chrome/android/java/res/drawable-xxhdpi/ics_toolbar_shortcut.png
+ Deleted: ./chrome/android/java/res/drawable-xxxhdpi/ics_toolbar_shortcut.png
+
+
+Fri Jul 07 2023 09:20:00 GMT+0000 (Coordinated Universal Time)
+Number of deleted files : 21
 =====================================

@@ -6,18 +6,13 @@ kiwi_java_resources = [
     "java/res/drawable/ic_adblock_on.xml",
     "java/res/drawable/ic_adblock_off.xml",
     "java/res/drawable/ic_adblock_mid.xml",
-    "java/res/drawable-hdpi/ics_edit_homepage.png",
     "java/res/drawable-hdpi/ics_languages.png",
     "java/res/drawable-hdpi/logo_card_back.png",
-    "java/res/drawable-mdpi/ics_edit_homepage.png",
     "java/res/drawable-mdpi/ics_languages.png",
     "java/res/drawable-mdpi/logo_card_back.png",
-    "java/res/drawable-xhdpi/ics_edit_homepage.png",
     "java/res/drawable-xhdpi/ics_languages.png",
     "java/res/drawable-xhdpi/logo_card_back.png",
-    "java/res/drawable-xxhdpi/ics_edit_homepage.png",
     "java/res/drawable-xxhdpi/ics_languages.png",
-    "java/res/drawable-xxxhdpi/ics_edit_homepage.png",
     "java/res/drawable-xxxhdpi/ics_languages.png",
     "java/res/layout/dialog_edit_tile.xml",
     "java/res/layout/draggableitem.xml",
@@ -86,7 +81,8 @@ kiwi_java_resources = [
     "java/res/drawable/ics_addresses.xml",
     "java/res/drawable/ics_dev_options.xml",
     "java/res/drawable/ics_night_mode.xml",
-    "java/res/drawable/ics_notifications.xml"
+    "java/res/drawable/ics_notifications.xml",
+    "java/res/drawable/ics_edit_homepage.xml"
 ]
 
 chrome_java_resources_to_remove = [
@@ -305,5 +301,10 @@ chrome_java_resources_to_remove = [
     "java/res/drawable-mdpi/ics_notifications.png",
     "java/res/drawable-xhdpi/ics_notifications.png",
     "java/res/drawable-xxhdpi/ics_notifications.png",
-    "java/res/drawable-xxxhdpi/ics_notifications.png"
+    "java/res/drawable-xxxhdpi/ics_notifications.png",
+    "java/res/drawable-hdpi/ics_edit_homepage.png",
+    "java/res/drawable-mdpi/ics_edit_homepage.png",
+    "java/res/drawable-xhdpi/ics_edit_homepage.png",
+    "java/res/drawable-xxhdpi/ics_edit_homepage.png",
+    "java/res/drawable-xxxhdpi/ics_edit_homepage.png"
 ]

@@ -211,4 +211,29 @@ Number of deleted files : 16
 
 Fri Jul 07 2023 09:20:00 GMT+0000 (Coordinated Universal Time)
 Number of deleted files : 21
+===================================== Deleted: ./chrome/android/java/res/drawable/ic_incognito.xml
+ Deleted: ./chrome/android/java/res/drawable-hdpi/ics_addresses.png
+ Deleted: ./chrome/android/java/res/drawable-mdpi/ics_addresses.png
+ Deleted: ./chrome/android/java/res/drawable-xhdpi/ics_addresses.png
+ Deleted: ./chrome/android/java/res/drawable-xxhdpi/ics_addresses.png
+ Deleted: ./chrome/android/java/res/drawable-xxxhdpi/ics_addresses.png
+ Deleted: ./chrome/android/java/res/drawable-hdpi/ics_dev_options.png
+ Deleted: ./chrome/android/java/res/drawable-mdpi/ics_dev_options.png
+ Deleted: ./chrome/android/java/res/drawable-xhdpi/ics_dev_options.png
+ Deleted: ./chrome/android/java/res/drawable-xxhdpi/ics_dev_options.png
+ Deleted: ./chrome/android/java/res/drawable-xxxhdpi/ics_dev_options.png
+ Deleted: ./chrome/android/java/res/drawable-hdpi/ics_night_mode.png
+ Deleted: ./chrome/android/java/res/drawable-mdpi/ics_night_mode.png
+ Deleted: ./chrome/android/java/res/drawable-xhdpi/ics_night_mode.png
+ Deleted: ./chrome/android/java/res/drawable-xxhdpi/ics_night_mode.png
+ Deleted: ./chrome/android/java/res/drawable-xxxhdpi/ics_night_mode.png
+ Deleted: ./chrome/android/java/res/drawable-hdpi/ics_notifications.png
+ Deleted: ./chrome/android/java/res/drawable-mdpi/ics_notifications.png
+ Deleted: ./chrome/android/java/res/drawable-xhdpi/ics_notifications.png
+ Deleted: ./chrome/android/java/res/drawable-xxhdpi/ics_notifications.png
+ Deleted: ./chrome/android/java/res/drawable-xxxhdpi/ics_notifications.png
+
+
+Fri Jul 07 2023 10:12:16 GMT+0000 (Coordinated Universal Time)
+Number of deleted files : 21
 =====================================

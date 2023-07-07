@@ -18,7 +18,7 @@ try {
         let path = chrome_root_path+entry.replaceAll('"','')
         console.log(path)
           if (fs.existsSync(path)) {
-            //fs.unlinkSync(entry);
+            fs.unlinkSync(path);
             console.log(`Deleted: ${path}`);
             fs.appendFileSync(cleanLogPath, ` Deleted: ${path}\n`);
             count++;

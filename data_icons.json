@@ -136,11 +136,23 @@
   "ics_accessibility":{
     "icon-name":"universal-access"
   },
+  "ics_addresses":{
+    "icon-name":"map-location-dot"
+  },
   "ics_clear_data": {
     "icon-name": "trash-xmark"
   },
+  "ics_dev_options": {
+    "icon-name": "brackets-curly"
+  },
   "ics_lite_mode": {
     "icon-name": "bolt"
+  },
+  "ics_night_mode": {
+    "icon-name": "moon-stars"
+  },
+  "ics_notifications": {
+    "icon-name": "bell"
   },
   "ics_payments": {
     "icon-name": "credit-card"

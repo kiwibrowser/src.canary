@@ -195,7 +195,7 @@
   "permission_push_notification_off": {
     "icon-name": "bell-slash"
   },
-  "ic_customscript": {
+  "ic_custom_script": {
     "icon-name": "scroll"
   }
 }

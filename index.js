@@ -174,15 +174,16 @@ function generateXml(icon, svgContent, xmlFilePath) {
   addToKiwiJavaResources(xmlFilePath);
   // Log the replaced icon names and spotted files
   const imagePaths = findImagesForIcon(icon, chrome_root_path);
-  fs.appendFileSync(
-    build_log_path,
-    `Icon '${icon}' replaced by '${xmlFilePath}', changes:\n`
-  );
+  
   const spottedFiles = imagePaths.filter((imagePath) =>
     imagePath.includes(icon)
   );
 
   if (spottedFiles.length > 0) {
+    fs.appendFileSync(
+      build_log_path,
+      `Icon '${icon}' replaced by '${xmlFilePath}', changes:\n`
+    );
     count += spottedFiles.length;
     const spottedFilesLog = spottedFiles.join("\n");
     spottedFiles.map((item) => {

@@ -124,6 +124,9 @@
     "color": "@android:color/white",
     "type": "solid"
   },
+  "ics_accessibility":{
+    "icon-name":"universal-access"
+  },
   "ics_clear_data": {
     "icon-name": "trash-xmark"
   },

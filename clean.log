@@ -166,4 +166,24 @@ Number of deleted files : 155
 
 Fri Jul 07 2023 08:55:34 GMT+0000 (Coordinated Universal Time)
 Number of deleted files : 5
+===================================== Deleted: ./chrome/android/java/res/drawable/ic_incognito.xml
+ Deleted: ./chrome/android/java/res/drawable-hdpi/btn_right.png
+ Deleted: ./chrome/android/java/res/drawable-mdpi/btn_right.png
+ Deleted: ./chrome/android/java/res/drawable-xhdpi/btn_right.png
+ Deleted: ./chrome/android/java/res/drawable-xxhdpi/btn_right.png
+ Deleted: ./chrome/android/java/res/drawable-xxxhdpi/btn_right.png
+ Deleted: ./chrome/android/java/res/drawable-hdpi/help_outline.png
+ Deleted: ./chrome/android/java/res/drawable-mdpi/help_outline.png
+ Deleted: ./chrome/android/java/res/drawable-xhdpi/help_outline.png
+ Deleted: ./chrome/android/java/res/drawable-xxhdpi/help_outline.png
+ Deleted: ./chrome/android/java/res/drawable-xxxhdpi/help_outline.png
+ Deleted: ./chrome/android/java/res/drawable-hdpi/ic_incognito.png
+ Deleted: ./chrome/android/java/res/drawable-mdpi/ic_incognito.png
+ Deleted: ./chrome/android/java/res/drawable-xhdpi/ic_incognito.png
+ Deleted: ./chrome/android/java/res/drawable-xxhdpi/ic_incognito.png
+ Deleted: ./chrome/android/java/res/drawable-xxxhdpi/ic_incognito.png
+
+
+Fri Jul 07 2023 09:07:11 GMT+0000 (Coordinated Universal Time)
+Number of deleted files : 16
 =====================================

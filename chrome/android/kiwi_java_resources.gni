@@ -6,7 +6,6 @@ kiwi_java_resources = [
     "java/res/drawable/ic_adblock_on.xml",
     "java/res/drawable/ic_adblock_off.xml",
     "java/res/drawable/ic_adblock_mid.xml",
-    "java/res/drawable-hdpi/ic_incognito.png",
     "java/res/drawable-hdpi/ics_addresses.png",
     "java/res/drawable-hdpi/ics_dev_options.png",
     "java/res/drawable-hdpi/ics_edit_homepage.png",
@@ -17,7 +16,6 @@ kiwi_java_resources = [
     "java/res/drawable-hdpi/ics_search_engine.png",
     "java/res/drawable-hdpi/ics_theme.png",
     "java/res/drawable-hdpi/logo_card_back.png",
-    "java/res/drawable-mdpi/ic_incognito.png",
     "java/res/drawable-mdpi/ics_addresses.png",
     "java/res/drawable-mdpi/ics_dev_options.png",
     "java/res/drawable-mdpi/ics_edit_homepage.png",
@@ -28,7 +26,6 @@ kiwi_java_resources = [
     "java/res/drawable-mdpi/ics_search_engine.png",
     "java/res/drawable-mdpi/ics_theme.png",
     "java/res/drawable-mdpi/logo_card_back.png",
-    "java/res/drawable-xhdpi/ic_incognito.png",
     "java/res/drawable-xhdpi/ics_addresses.png",
     "java/res/drawable-xhdpi/ics_dev_options.png",
     "java/res/drawable-xhdpi/ics_edit_homepage.png",
@@ -39,7 +36,6 @@ kiwi_java_resources = [
     "java/res/drawable-xhdpi/ics_search_engine.png",
     "java/res/drawable-xhdpi/ics_theme.png",
     "java/res/drawable-xhdpi/logo_card_back.png",
-    "java/res/drawable-xxhdpi/ic_incognito.png",
     "java/res/drawable-xxhdpi/ics_addresses.png",
     "java/res/drawable-xxhdpi/ics_dev_options.png",
     "java/res/drawable-xxhdpi/ics_edit_homepage.png",
@@ -49,7 +45,6 @@ kiwi_java_resources = [
     "java/res/drawable-xxhdpi/ics_payments.png",
     "java/res/drawable-xxhdpi/ics_search_engine.png",
     "java/res/drawable-xxhdpi/ics_theme.png",
-    "java/res/drawable-xxxhdpi/ic_incognito.png",
     "java/res/drawable-xxxhdpi/ics_addresses.png",
     "java/res/drawable-xxxhdpi/ics_dev_options.png",
     "java/res/drawable-xxxhdpi/ics_edit_homepage.png",
@@ -120,7 +115,10 @@ kiwi_java_resources = [
     "java/res/drawable/menu_update.xml",
     "java/res/drawable/open_in_new_tab.xml",
     "java/res/drawable/permission_push_notification_off.xml",
-    "java/res/drawable/ics_accessibility.xml"
+    "java/res/drawable/ics_accessibility.xml",
+    "java/res/drawable/btn_right.xml",
+    "java/res/drawable/help_outline.xml",
+    "java/res/drawable/ic_incognito.xml"
 ]
 
 chrome_java_resources_to_remove = [
@@ -284,5 +282,20 @@ chrome_java_resources_to_remove = [
     "java/res/drawable-mdpi/ics_accessibility.png",
     "java/res/drawable-xhdpi/ics_accessibility.png",
     "java/res/drawable-xxhdpi/ics_accessibility.png",
-    "java/res/drawable-xxxhdpi/ics_accessibility.png"
+    "java/res/drawable-xxxhdpi/ics_accessibility.png",
+    "java/res/drawable-hdpi/btn_right.png",
+    "java/res/drawable-mdpi/btn_right.png",
+    "java/res/drawable-xhdpi/btn_right.png",
+    "java/res/drawable-xxhdpi/btn_right.png",
+    "java/res/drawable-xxxhdpi/btn_right.png",
+    "java/res/drawable-hdpi/help_outline.png",
+    "java/res/drawable-mdpi/help_outline.png",
+    "java/res/drawable-xhdpi/help_outline.png",
+    "java/res/drawable-xxhdpi/help_outline.png",
+    "java/res/drawable-xxxhdpi/help_outline.png",
+    "java/res/drawable-hdpi/ic_incognito.png",
+    "java/res/drawable-mdpi/ic_incognito.png",
+    "java/res/drawable-xhdpi/ic_incognito.png",
+    "java/res/drawable-xxhdpi/ic_incognito.png",
+    "java/res/drawable-xxxhdpi/ic_incognito.png"
 ]

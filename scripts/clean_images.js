@@ -1,34 +1,37 @@
 const fs = require("fs");
-
-const buildLogPath = "build.log"; // Specify the path for the image log file
-const cleanLogPath = "clean.log"; // Specify the path for the deleted images log file
+const gni_path = "./chrome/android/kiwi_java_resources.gni";
+const regex2 = /chrome_java_resources_to_remove\s*=\s*\[([\s\S]*?)\]/;
+const chrome_root_path = "./chrome/android/"; // Specify the path to the image folder
+const cleanLogPath = "tmp/clean.log"; // Specify the path for the deleted images log file
 let count = 0;
-// Read the image log file and delete the tracked images
-function deleteTrackedImages() {
-  const imageLogContent = fs.readFileSync(buildLogPath, "utf-8");
-  const logEntries = imageLogContent.split("\n\n");
 
-  logEntries.forEach((logEntry) => {
-    const lines = logEntry.trim().split("\n");
-    const replacedIcon = lines[0].match(/Icon '(.+)' replaced/)?.[1];
-    const spottedFiles = lines.slice(1);
+try {
+    kiwi_java_resources = fs.readFileSync(gni_path, "utf8").toString();
+    const match2 = kiwi_java_resources.match(regex2);
+    
+    if (!match2) return console.error("Arrays not found in file.");
+  
+    const arrayString2 = match2[1];
+    chromeJavaResourcesToRemove = arrayString2.split(/\s*,\s*/).map((item) => item.trim()).filter((item) => item !== '');
 
-    spottedFiles.forEach((spottedFile) => {
-      const imagePath = spottedFile.trim();
-      if (fs.existsSync(imagePath)) {
-        fs.unlinkSync(imagePath);
-        console.log(`Deleted: ${imagePath}`);
-        fs.appendFileSync(cleanLogPath, `${replacedIcon}: ${imagePath}\n`);
-        count++;
+    chromeJavaResourcesToRemove.forEach((entry) => {
+        let path = chrome_root_path+entry.replaceAll('"','')
+        console.log(path)
+          if (fs.existsSync(path)) {
+            //fs.unlinkSync(entry);
+            console.log(`Deleted: ${path}`);
+            fs.appendFileSync(cleanLogPath, ` Deleted: ${path}\n`);
+            count++;
+          }
+      });
+      if(count>0){
+        const time = new Date();
+        fs.appendFileSync(
+            cleanLogPath,
+            `\n\n${time}\nNumber of deleted files : ${count}\n=====================================`
+        );
       }
-    });
-  });
-  const time = new Date();
-  fs.appendFileSync(
-    cleanLogPath,
-    `\n\n${time}\nNumber of deleted files : ${count}\n=====================================`
-  );
-}
+}catch(error){
+    console.log(error);
+}  
 
-// Call the function to delete the tracked images
-deleteTrackedImages();

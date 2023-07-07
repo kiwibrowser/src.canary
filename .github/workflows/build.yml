@@ -3,7 +3,7 @@ name: Build and Upload Drawables
 on:
   push:
     branches:
-      - main_t
+      - main
 
 jobs:
   build:
@@ -20,15 +20,21 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+      
+      - name: Log folder
+        run: mkdir -p tmp
 
-      - name: Build drawable
+      - name: Build
         run: npm run build
 
-      - name: Upload Drawables
+      - name: Clean
+        run: npm run clean
+
+      - name: Upload logs
         uses: actions/upload-artifact@v2
         with:
-          name: drawable
-          path: drawable
+          name: logs
+          path: tmp
 
       - name: Check for changes, commits and push
         id: check_changes
@@ -41,10 +47,7 @@ jobs:
               echo "changes=true" >> $GITHUB_ENV
               git config user.name "GitHub Action"
               git config user.email "action@github.com"
-              git add drawable
-              git add build.log
-              git add clean.log
               git add chrome
-              git commit -m "Drawable update - ${{ github.run_id }}"
+              git commit -m "Drawables update - ${{ github.run_id }}"
               git push origin ${{ github.ref }}
             fi

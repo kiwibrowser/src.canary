@@ -185,11 +185,14 @@ function generateXml(icon, svgContent, xmlFilePath) {
       `Icon '${icon}' replaced by '${xmlFilePath}', changes:\n`
     );
     count += spottedFiles.length;
-    const spottedFilesLog = spottedFiles.join("\n");
     spottedFiles.map((item) => {
       removeFromKiwiJavaResources(item);
       addToChromeJavaResourcesToRemove(item);
     });
+    fs.appendFileSync(
+      build_log_path,
+      `---------------------------------------\n`
+    );
   }
 }
 
@@ -231,10 +234,7 @@ try {
     const svgContent = fs.readFileSync(svgPath, "utf-8");
 
     generateXml(icon, svgContent, xmlFilePath);
-    fs.appendFileSync(
-      build_log_path,
-      `---------------------------------------\n`
-    );
+    
   }
   const time = new Date();
   fs.appendFileSync(

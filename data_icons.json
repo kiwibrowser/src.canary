@@ -142,14 +142,26 @@
   "ics_lite_mode": {
     "icon-name": "bolt"
   },
+  "ics_payments": {
+    "icon-name": "credit-card"
+  },
   "ics_privacy_security": {
     "icon-name": "user-lock"
+  },
+  "ics_search_engine": {
+    "icon-name": "magnifying-glass"
   },
   "ics_services": {
     "icon-name": "gears"
   },
   "ics_tab_switcher": {
     "icon-name": "clone"
+  },
+  "ics_theme": {
+    "icon-name": "palette"
+  },
+  "ics_toolbar_shortcut": {
+    "icon-name": "distribute-spacing-vertical"
   },
   "ics_website_settings": {
     "icon-name": "browser"

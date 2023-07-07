@@ -224,11 +224,14 @@ try {
     let type = i.type;
     if (!type) type = "light";
     const xmlFilePath = drawable_xml_path + icon + ".xml";
-    const svgPath = fa_path + type + "/" + `${i["icon-name"]}.svg`;
+    let svgPath = fa_path + type + "/" + `${i["icon-name"]}.svg`;
 
     if (!fs.existsSync(svgPath)) {
-      console.log(`Source doesn't exist: ${svgPath}`);
-      process.exit();
+      svgPath = "custom/" + `${i["icon-name"]}.svg`;
+      if (!fs.existsSync(svgPath)) {
+        console.log(`Source doesn't exist: ${svgPath}`);
+        process.exit();
+      }
     }
 
     const svgContent = fs.readFileSync(svgPath, "utf-8");

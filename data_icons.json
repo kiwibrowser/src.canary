@@ -139,6 +139,9 @@
   "ics_addresses":{
     "icon-name":"map-location-dot"
   },
+  "ics_edit_homepage":{
+    "icon-name":"house-edit"
+  },
   "ics_clear_data": {
     "icon-name": "trash-xmark"
   },

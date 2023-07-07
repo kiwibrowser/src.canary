@@ -8,7 +8,8 @@
   },
   "scripts": {
     "build": "node index.js",
-    "clean" : "node scripts/clean_images"
+    "clean" : "node scripts/clean_images",
+    "get" : "node scripts/get_icon.js"
   },
   "author": "d3ward",
   "license": "BSD 3-Clause License"

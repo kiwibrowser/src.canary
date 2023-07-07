@@ -10,6 +10,9 @@
   "btn_left": {
     "icon-name": "arrow-left"
   },
+  "btn_right": {
+    "icon-name": "arrow-right"
+  },
   "btn_tab_close_normal": {
     "icon-name": "xmark",
     "color": "#aaaaaaaa"
@@ -25,6 +28,9 @@
   },
   "btn_toolbar_reload": {
     "icon-name": "rotate-right"
+  },
+  "help_outline": {
+    "icon-name": "circle-question"
   },
   "ic_add_to_home_screen_r": {
     "icon-name": "grid-2-plus"
@@ -82,6 +88,9 @@
   },
   "ic_history": {
     "icon-name": "clock-rotate-left"
+  },
+  "ic_incognito": {
+    "icon-name": "user-secret"
   },
   "ic_new_tab": {
     "icon-name": "square-plus"

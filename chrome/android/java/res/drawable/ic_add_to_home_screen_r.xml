@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="675.84"
+    android:viewportHeight="675.84">
+    <group
+    android:translateX="81"
+        android:translateY="81">
+    <path
+        android:pathData="M176 64H80c-8.8 0-16 7.2-16 16v96c0 8.8 7.2 16 16 16h96c8.8 0 16-7.2 16-16V80c0-8.8-7.2-16-16-16zM80 32h96c26.5 0 48 21.5 48 48v96c0 26.5-21.5 48-48 48H80c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48zm96 288H80c-8.8 0-16 7.2-16 16v96c0 8.8 7.2 16 16 16h96c8.8 0 16-7.2 16-16V336c0-8.8-7.2-16-16-16zM80 288h96c26.5 0 48 21.5 48 48v96c0 26.5-21.5 48-48 48H80c-26.5 0-48-21.5-48-48V336c0-26.5 21.5-48 48-48zM336 64c-8.8 0-16 7.2-16 16v96c0 8.8 7.2 16 16 16h96c8.8 0 16-7.2 16-16V80c0-8.8-7.2-16-16-16H336zM288 80c0-26.5 21.5-48 48-48h96c26.5 0 48 21.5 48 48v96c0 26.5-21.5 48-48 48H336c-26.5 0-48-21.5-48-48V80zm96 192c8.8 0 16 7.2 16 16v80h80c8.8 0 16 7.2 16 16s-7.2 16-16 16H400v80c0 8.8-7.2 16-16 16s-16-7.2-16-16V400H288c-8.8 0-16-7.2-16-16s7.2-16 16-16h80V288c0-8.8 7.2-16 16-16z"
+        android:fillColor="@android:color/black"
+        android:fillType="nonZero"
+        />
+    </group>
+</vector>

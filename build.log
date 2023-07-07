@@ -1,0 +1,467 @@
+Item '"java/res/drawable/bookmark_check_gray.xml"' added to kiwiJavaResources.
+Icon 'bookmark_check_gray' replaced by './chrome/android/java/res/drawable/bookmark_check_gray.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/bookmark_check_gray.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-hdpi/bookmark_check_gray.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/bookmark_check_gray.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-mdpi/bookmark_check_gray.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/bookmark_check_gray.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/bookmark_check_gray.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/bookmark_check_gray.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/bookmark_check_gray.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/bookmark_check_gray.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/bookmark_check_gray.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/btn_close_white.xml"' added to kiwiJavaResources.
+Icon 'btn_close_white' replaced by './chrome/android/java/res/drawable/btn_close_white.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/btn_close_white.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-hdpi/btn_close_white.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/btn_close_white.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-mdpi/btn_close_white.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/btn_close_white.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/btn_close_white.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/btn_close_white.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/btn_close_white.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/btn_close_white.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/btn_close_white.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/btn_left.xml"' added to kiwiJavaResources.
+Icon 'btn_left' replaced by './chrome/android/java/res/drawable/btn_left.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/btn_left.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-hdpi/btn_left.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/btn_left.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-mdpi/btn_left.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/btn_left.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/btn_left.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/btn_left.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/btn_left.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/btn_left.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/btn_left.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/btn_tab_close_normal.xml"' added to kiwiJavaResources.
+Icon 'btn_tab_close_normal' replaced by './chrome/android/java/res/drawable/btn_tab_close_normal.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/btn_tab_close_normal.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-hdpi/btn_tab_close_normal.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/btn_tab_close_normal.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-mdpi/btn_tab_close_normal.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/btn_tab_close_normal.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/btn_tab_close_normal.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/btn_tab_close_normal.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/btn_tab_close_normal.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/btn_tab_close_normal.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/btn_tab_close_normal.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/btn_tabswitcher_modern.xml"' added to kiwiJavaResources.
+Icon 'btn_tabswitcher_modern' replaced by './chrome/android/java/res/drawable/btn_tabswitcher_modern.xml', changes:
+---------------------------------------
+Item '"java/res/drawable/btn_toolbar_hand.xml"' added to kiwiJavaResources.
+Icon 'btn_toolbar_hand' replaced by './chrome/android/java/res/drawable/btn_toolbar_hand.xml', changes:
+---------------------------------------
+Item '"java/res/drawable/btn_toolbar_home.xml"' added to kiwiJavaResources.
+Icon 'btn_toolbar_home' replaced by './chrome/android/java/res/drawable/btn_toolbar_home.xml', changes:
+---------------------------------------
+Item '"java/res/drawable/btn_toolbar_reload.xml"' added to kiwiJavaResources.
+Icon 'btn_toolbar_reload' replaced by './chrome/android/java/res/drawable/btn_toolbar_reload.xml', changes:
+---------------------------------------
+Item '"java/res/drawable/ic_add_to_home_screen_r.xml"' added to kiwiJavaResources.
+Icon 'ic_add_to_home_screen_r' replaced by './chrome/android/java/res/drawable/ic_add_to_home_screen_r.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/ic_add_to_home_screen_r.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-hdpi/ic_add_to_home_screen_r.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/ic_add_to_home_screen_r.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-mdpi/ic_add_to_home_screen_r.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/ic_add_to_home_screen_r.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/ic_add_to_home_screen_r.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/ic_add_to_home_screen_r.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/ic_add_to_home_screen_r.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/ic_add_to_home_screen_r.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/ic_add_to_home_screen_r.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/ic_adblock_mid.xml"' already exists in kiwiJavaResources.
+Icon 'ic_adblock_mid' replaced by './chrome/android/java/res/drawable/ic_adblock_mid.xml', changes:
+---------------------------------------
+Item '"java/res/drawable/ic_adblock_off.xml"' already exists in kiwiJavaResources.
+Icon 'ic_adblock_off' replaced by './chrome/android/java/res/drawable/ic_adblock_off.xml', changes:
+---------------------------------------
+Item '"java/res/drawable/ic_adblock_on.xml"' already exists in kiwiJavaResources.
+Icon 'ic_adblock_on' replaced by './chrome/android/java/res/drawable/ic_adblock_on.xml', changes:
+---------------------------------------
+Item '"java/res/drawable/ic_backup.xml"' added to kiwiJavaResources.
+Icon 'ic_backup' replaced by './chrome/android/java/res/drawable/ic_backup.xml', changes:
+---------------------------------------
+Item '"java/res/drawable/ic_backup_export.xml"' added to kiwiJavaResources.
+Icon 'ic_backup_export' replaced by './chrome/android/java/res/drawable/ic_backup_export.xml', changes:
+---------------------------------------
+Item '"java/res/drawable/ic_backup_import.xml"' added to kiwiJavaResources.
+Icon 'ic_backup_import' replaced by './chrome/android/java/res/drawable/ic_backup_import.xml', changes:
+---------------------------------------
+Item '"java/res/drawable/ic_bookmarks.xml"' added to kiwiJavaResources.
+Icon 'ic_bookmarks' replaced by './chrome/android/java/res/drawable/ic_bookmarks.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/ic_bookmarks.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-hdpi/ic_bookmarks.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/ic_bookmarks.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-mdpi/ic_bookmarks.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/ic_bookmarks.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/ic_bookmarks.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/ic_bookmarks.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/ic_bookmarks.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/ic_bookmarks.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/ic_bookmarks.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/ic_checked.xml"' added to kiwiJavaResources.
+Icon 'ic_checked' replaced by './chrome/android/java/res/drawable/ic_checked.xml', changes:
+---------------------------------------
+Item '"java/res/drawable/ic_clear_data.xml"' added to kiwiJavaResources.
+Icon 'ic_clear_data' replaced by './chrome/android/java/res/drawable/ic_clear_data.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/ic_clear_data.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-hdpi/ic_clear_data.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/ic_clear_data.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-mdpi/ic_clear_data.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/ic_clear_data.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/ic_clear_data.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/ic_clear_data.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/ic_clear_data.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/ic_clear_data.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/ic_clear_data.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/ic_desktop_mode.xml"' added to kiwiJavaResources.
+Icon 'ic_desktop_mode' replaced by './chrome/android/java/res/drawable/ic_desktop_mode.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/ic_desktop_mode.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-hdpi/ic_desktop_mode.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/ic_desktop_mode.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-mdpi/ic_desktop_mode.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/ic_desktop_mode.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/ic_desktop_mode.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/ic_desktop_mode.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/ic_desktop_mode.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/ic_desktop_mode.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/ic_desktop_mode.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/ic_devtools.xml"' added to kiwiJavaResources.
+Icon 'ic_devtools' replaced by './chrome/android/java/res/drawable/ic_devtools.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/ic_devtools.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-hdpi/ic_devtools.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/ic_devtools.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-mdpi/ic_devtools.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/ic_devtools.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/ic_devtools.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/ic_devtools.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/ic_devtools.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/ic_devtools.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/ic_devtools.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/ic_dots.xml"' added to kiwiJavaResources.
+Icon 'ic_dots' replaced by './chrome/android/java/res/drawable/ic_dots.xml', changes:
+---------------------------------------
+Item '"java/res/drawable/ic_divider.xml"' added to kiwiJavaResources.
+Icon 'ic_divider' replaced by './chrome/android/java/res/drawable/ic_divider.xml', changes:
+---------------------------------------
+Item '"java/res/drawable/ic_downloads.xml"' added to kiwiJavaResources.
+Icon 'ic_downloads' replaced by './chrome/android/java/res/drawable/ic_downloads.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/ic_downloads.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-hdpi/ic_downloads.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/ic_downloads.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-mdpi/ic_downloads.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/ic_downloads.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/ic_downloads.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/ic_downloads.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/ic_downloads.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/ic_downloads.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/ic_downloads.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/ic_exit_to_app.xml"' added to kiwiJavaResources.
+Icon 'ic_exit_to_app' replaced by './chrome/android/java/res/drawable/ic_exit_to_app.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/ic_exit_to_app_white_24dp.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-hdpi/ic_exit_to_app_white_24dp.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/ic_exit_to_app_white_24dp.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-mdpi/ic_exit_to_app_white_24dp.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/ic_exit_to_app_white_24dp.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/ic_exit_to_app_white_24dp.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/ic_exit_to_app_white_24dp.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/ic_exit_to_app_white_24dp.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/ic_exit_to_app_white_24dp.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/ic_exit_to_app_white_24dp.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/ic_extensions.xml"' added to kiwiJavaResources.
+Icon 'ic_extensions' replaced by './chrome/android/java/res/drawable/ic_extensions.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/ic_extensions.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-hdpi/ic_extensions.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/ic_extensions.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-mdpi/ic_extensions.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/ic_extensions.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/ic_extensions.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/ic_extensions.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/ic_extensions.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/ic_extensions.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/ic_extensions.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/ic_find_in_page_r.xml"' added to kiwiJavaResources.
+Icon 'ic_find_in_page_r' replaced by './chrome/android/java/res/drawable/ic_find_in_page_r.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/ic_find_in_page_r.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-hdpi/ic_find_in_page_r.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/ic_find_in_page_r.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-mdpi/ic_find_in_page_r.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/ic_find_in_page_r.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/ic_find_in_page_r.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/ic_find_in_page_r.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/ic_find_in_page_r.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/ic_find_in_page_r.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/ic_find_in_page_r.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/ic_history.xml"' added to kiwiJavaResources.
+Icon 'ic_history' replaced by './chrome/android/java/res/drawable/ic_history.xml', changes:
+---------------------------------------
+Item '"java/res/drawable/ic_new_tab.xml"' added to kiwiJavaResources.
+Icon 'ic_new_tab' replaced by './chrome/android/java/res/drawable/ic_new_tab.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/ic_new_tab.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-hdpi/ic_new_tab.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/ic_new_tab.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-mdpi/ic_new_tab.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/ic_new_tab.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/ic_new_tab.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/ic_new_tab.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/ic_new_tab.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/ic_new_tab.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/ic_new_tab.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/ic_night_mode_off.xml"' added to kiwiJavaResources.
+Icon 'ic_night_mode_off' replaced by './chrome/android/java/res/drawable/ic_night_mode_off.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/ic_night_mode_off.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-hdpi/ic_night_mode_off.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/ic_night_mode_off.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-mdpi/ic_night_mode_off.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/ic_night_mode_off.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/ic_night_mode_off.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/ic_night_mode_off.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/ic_night_mode_off.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/ic_night_mode_off.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/ic_night_mode_off.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/ic_night_mode_on.xml"' added to kiwiJavaResources.
+Icon 'ic_night_mode_on' replaced by './chrome/android/java/res/drawable/ic_night_mode_on.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/ic_night_mode_on.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-hdpi/ic_night_mode_on.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/ic_night_mode_on.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-mdpi/ic_night_mode_on.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/ic_night_mode_on.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/ic_night_mode_on.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/ic_night_mode_on.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/ic_night_mode_on.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/ic_night_mode_on.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/ic_night_mode_on.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/ics_passwords.xml"' added to kiwiJavaResources.
+Icon 'ics_passwords' replaced by './chrome/android/java/res/drawable/ics_passwords.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/ics_passwords.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-hdpi/ics_passwords.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/ics_passwords.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-mdpi/ics_passwords.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/ics_passwords.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/ics_passwords.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/ics_passwords.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/ics_passwords.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/ics_passwords.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/ics_passwords.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/ic_photo_camera.xml"' added to kiwiJavaResources.
+Icon 'ic_photo_camera' replaced by './chrome/android/java/res/drawable/ic_photo_camera.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/ic_photo_camera.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-hdpi/ic_photo_camera.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/ic_photo_camera.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-mdpi/ic_photo_camera.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/ic_photo_camera.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/ic_photo_camera.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/ic_photo_camera.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/ic_photo_camera.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/ic_photo_camera.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/ic_photo_camera.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/ic_qr_code.xml"' added to kiwiJavaResources.
+Icon 'ic_qr_code' replaced by './chrome/android/java/res/drawable/ic_qr_code.xml', changes:
+---------------------------------------
+Item '"java/res/drawable/ic_reading_list.xml"' added to kiwiJavaResources.
+Icon 'ic_reading_list' replaced by './chrome/android/java/res/drawable/ic_reading_list.xml', changes:
+---------------------------------------
+Item '"java/res/drawable/ic_recent_tabs.xml"' added to kiwiJavaResources.
+Icon 'ic_recent_tabs' replaced by './chrome/android/java/res/drawable/ic_recent_tabs.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/ic_recent_tabs.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-hdpi/ic_recent_tabs.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/ic_recent_tabs.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-mdpi/ic_recent_tabs.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/ic_recent_tabs.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/ic_recent_tabs.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/ic_recent_tabs.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/ic_recent_tabs.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/ic_recent_tabs.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/ic_recent_tabs.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/ic_settings.xml"' added to kiwiJavaResources.
+Icon 'ic_settings' replaced by './chrome/android/java/res/drawable/ic_settings.xml', changes:
+---------------------------------------
+Item '"java/res/drawable/ic_share.xml"' added to kiwiJavaResources.
+Icon 'ic_share' replaced by './chrome/android/java/res/drawable/ic_share.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/ic_share.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-hdpi/ic_share.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/ic_share.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-mdpi/ic_share.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/ic_share.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/ic_share.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/ic_share.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/ic_share.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/ic_share.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/ic_share.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/ic_translate_r.xml"' added to kiwiJavaResources.
+Icon 'ic_translate_r' replaced by './chrome/android/java/res/drawable/ic_translate_r.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/ic_translate_r.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-hdpi/ic_translate_r.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/ic_translate_r.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-mdpi/ic_translate_r.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/ic_translate_r.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/ic_translate_r.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/ic_translate_r.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/ic_translate_r.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/ic_translate_r.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/ic_translate_r.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/ic_unchecked.xml"' added to kiwiJavaResources.
+Icon 'ic_unchecked' replaced by './chrome/android/java/res/drawable/ic_unchecked.xml', changes:
+---------------------------------------
+Item '"java/res/drawable/ic_warning_white.xml"' added to kiwiJavaResources.
+Icon 'ic_warning_white' replaced by './chrome/android/java/res/drawable/ic_warning_white.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/ic_warning_white_24dp.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-hdpi/ic_warning_white_24dp.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/ic_warning_white_24dp.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-mdpi/ic_warning_white_24dp.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/ic_warning_white_24dp.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/ic_warning_white_24dp.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/ic_warning_white_24dp.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/ic_warning_white_24dp.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/ic_warning_white_24dp.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/ic_warning_white_24dp.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/ics_clear_data.xml"' added to kiwiJavaResources.
+Icon 'ics_clear_data' replaced by './chrome/android/java/res/drawable/ics_clear_data.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/ics_clear_data.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-hdpi/ics_clear_data.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/ics_clear_data.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-mdpi/ics_clear_data.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/ics_clear_data.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/ics_clear_data.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/ics_clear_data.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/ics_clear_data.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/ics_clear_data.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/ics_clear_data.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/ics_lite_mode.xml"' added to kiwiJavaResources.
+Icon 'ics_lite_mode' replaced by './chrome/android/java/res/drawable/ics_lite_mode.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/ics_lite_mode.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-hdpi/ics_lite_mode.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/ics_lite_mode.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-mdpi/ics_lite_mode.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/ics_lite_mode.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/ics_lite_mode.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/ics_lite_mode.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/ics_lite_mode.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/ics_lite_mode.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/ics_lite_mode.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/ics_privacy_security.xml"' added to kiwiJavaResources.
+Icon 'ics_privacy_security' replaced by './chrome/android/java/res/drawable/ics_privacy_security.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/ics_privacy_security.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-hdpi/ics_privacy_security.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/ics_privacy_security.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-mdpi/ics_privacy_security.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/ics_privacy_security.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/ics_privacy_security.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/ics_privacy_security.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/ics_privacy_security.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/ics_privacy_security.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/ics_privacy_security.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/ics_services.xml"' added to kiwiJavaResources.
+Icon 'ics_services' replaced by './chrome/android/java/res/drawable/ics_services.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/ics_services.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-hdpi/ics_services.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/ics_services.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-mdpi/ics_services.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/ics_services.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/ics_services.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/ics_services.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/ics_services.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/ics_services.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/ics_services.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/ics_tab_switcher.xml"' added to kiwiJavaResources.
+Icon 'ics_tab_switcher' replaced by './chrome/android/java/res/drawable/ics_tab_switcher.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/ics_tab_switcher.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-hdpi/ics_tab_switcher.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/ics_tab_switcher.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-mdpi/ics_tab_switcher.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/ics_tab_switcher.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/ics_tab_switcher.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/ics_tab_switcher.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/ics_tab_switcher.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/ics_tab_switcher.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/ics_tab_switcher.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/ics_website_settings.xml"' added to kiwiJavaResources.
+Icon 'ics_website_settings' replaced by './chrome/android/java/res/drawable/ics_website_settings.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/ics_website_settings.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-hdpi/ics_website_settings.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/ics_website_settings.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-mdpi/ics_website_settings.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/ics_website_settings.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/ics_website_settings.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/ics_website_settings.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/ics_website_settings.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/ics_website_settings.png"' removed from kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/ics_website_settings.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/ic_zoom_plus.xml"' added to kiwiJavaResources.
+Icon 'ic_zoom_plus' replaced by './chrome/android/java/res/drawable/ic_zoom_plus.xml', changes:
+---------------------------------------
+Item '"java/res/drawable/menu_update.xml"' added to kiwiJavaResources.
+Icon 'menu_update' replaced by './chrome/android/java/res/drawable/menu_update.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/menu_update.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-hdpi/menu_update.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/menu_update.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-mdpi/menu_update.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/menu_update.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/menu_update.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/menu_update.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/menu_update.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/menu_update.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/menu_update.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/open_in_new_tab.xml"' added to kiwiJavaResources.
+Icon 'open_in_new_tab' replaced by './chrome/android/java/res/drawable/open_in_new_tab.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/open_in_new_tab.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-hdpi/open_in_new_tab.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/open_in_new_tab.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-mdpi/open_in_new_tab.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/open_in_new_tab.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/open_in_new_tab.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/open_in_new_tab.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/open_in_new_tab.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/open_in_new_tab.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/open_in_new_tab.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+Item '"java/res/drawable/permission_push_notification_off.xml"' added to kiwiJavaResources.
+Icon 'permission_push_notification_off' replaced by './chrome/android/java/res/drawable/permission_push_notification_off.xml', changes:
+Remove : Item '"java/res/drawable-hdpi/permission_push_notification_off.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-hdpi/permission_push_notification_off.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-mdpi/permission_push_notification_off.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-mdpi/permission_push_notification_off.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xhdpi/permission_push_notification_off.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xhdpi/permission_push_notification_off.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxhdpi/permission_push_notification_off.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xxhdpi/permission_push_notification_off.png"' added to chromeJavaResourcesToRemove.
+Remove : Item '"java/res/drawable-xxxhdpi/permission_push_notification_off.png"' does not exist in kiwiJavaResources.
+Item '"java/res/drawable-xxxhdpi/permission_push_notification_off.png"' added to chromeJavaResourcesToRemove.
+---------------------------------------
+
+Fri Jul 07 2023 08:49:25 GMT+0000 (Coordinated Universal Time)
+Count of spotted files : 155
+Number of xml icons generated : 50
+=====================================
+
+

@@ -84,7 +84,9 @@ kiwi_java_resources = [
     "java/res/drawable/ics_notifications.xml",
     "java/res/drawable/ics_edit_homepage.xml",
     "java/res/drawable/ic_customscript.xml",
-    "java/res/drawable/ic_custom_script.xml"
+    "java/res/drawable/ic_custom_script.xml",
+    "java/res/drawable/omnibox_info.xml",
+    "java/res/drawable/omnibox_https_valid.xml"
 ]
 
 chrome_java_resources_to_remove = [

@@ -209,5 +209,8 @@
   },
   "chromelogo16":{
     "icon-name": "kiwi-icon"
+  },
+  "ics_languages":{
+    "icon-name": "languages"
   }
 }

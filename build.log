@@ -1630,3 +1630,78 @@ Number of xml icons generated : 68
 =====================================
 
 
+Item '"java/res/drawable/bookmark_check_gray.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/btn_close_white.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/btn_left.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/btn_right.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/btn_tab_close_normal.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/btn_tabswitcher_modern.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/btn_toolbar_hand.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/btn_toolbar_home.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/btn_toolbar_reload.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/help_outline.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_add_to_home_screen_r.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_adblock_mid.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_adblock_off.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_adblock_on.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_backup.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_backup_export.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_backup_import.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_bookmarks.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_checked.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_clear_data.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_desktop_mode.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_devtools.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_dots.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_divider.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_downloads.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_exit_to_app.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_extensions.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_find_in_page_r.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_history.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_incognito.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_new_tab.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_night_mode_off.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_night_mode_on.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ics_passwords.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_photo_camera.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_qr_code.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_reading_list.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_recent_tabs.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_settings.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_share.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_translate_r.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_unchecked.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_warning_white.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ics_accessibility.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ics_addresses.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ics_edit_homepage.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ics_clear_data.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ics_dev_options.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ics_lite_mode.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ics_night_mode.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ics_notifications.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ics_payments.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ics_privacy_security.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ics_search_engine.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ics_services.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ics_tab_switcher.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ics_theme.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ics_toolbar.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ics_toolbar_shortcut.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ics_website_settings.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_zoom_plus.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/menu_update.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/omnibox_info.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/omnibox_https_valid.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/open_in_new_tab.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/permission_push_notification_off.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/ic_custom_script.xml"' already exists in kiwiJavaResources.
+Item '"java/res/drawable/chromelogo16.xml"' already exists in kiwiJavaResources.
+
+Thu Jul 13 2023 19:09:50 GMT+0000 (Coordinated Universal Time)
+Count of spotted files : 0
+Number of xml icons generated : 68
+=====================================
+
+

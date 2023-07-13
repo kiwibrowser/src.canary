@@ -281,4 +281,13 @@ Number of deleted files : 1
 
 Thu Jul 13 2023 18:27:31 GMT+0000 (Coordinated Universal Time)
 Number of deleted files : 1
+===================================== Deleted: ./chrome/android/java/res/drawable-hdpi/ics_languages.png
+ Deleted: ./chrome/android/java/res/drawable-mdpi/ics_languages.png
+ Deleted: ./chrome/android/java/res/drawable-xhdpi/ics_languages.png
+ Deleted: ./chrome/android/java/res/drawable-xxhdpi/ics_languages.png
+ Deleted: ./chrome/android/java/res/drawable-xxxhdpi/ics_languages.png
+
+
+Thu Jul 13 2023 20:12:19 GMT+0000 (Coordinated Universal Time)
+Number of deleted files : 5
 =====================================

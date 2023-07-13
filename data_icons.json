@@ -90,7 +90,7 @@
     "icon-name": "clock-rotate-left"
   },
   "ic_incognito": {
-    "icon-name": "user-secret"
+    "icon-name": "kiwi-incognito"
   },
   "ic_new_tab": {
     "icon-name": "square-plus"
@@ -206,5 +206,8 @@
   },
   "ic_custom_script": {
     "icon-name": "scroll"
+  },
+  "chromelogo16":{
+    "icon-name": "kiwi-bird"
   }
 }

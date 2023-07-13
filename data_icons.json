@@ -189,6 +189,12 @@
     "color": "@android:color/red",
     "type": "solid"
   },
+  "omnibox_info": {
+    "icon-name": "circle-info"
+  },
+  "omnibox_https_valid": {
+    "icon-name": "lock"
+  }
   "open_in_new_tab": {
     "icon-name": "up-right-from-square"
   },

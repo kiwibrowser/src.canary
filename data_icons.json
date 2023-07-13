@@ -175,8 +175,11 @@
   "ics_theme": {
     "icon-name": "palette"
   },
-  "ics_toolbar_shortcut": {
+  "ics_toolbar": {
     "icon-name": "distribute-spacing-vertical"
+  },
+  "ics_toolbar_shortcut": {
+    "icon-name": "wand-magic-sparkles"
   },
   "ics_website_settings": {
     "icon-name": "browser"

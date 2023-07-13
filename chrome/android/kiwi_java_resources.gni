@@ -92,7 +92,6 @@ kiwi_java_resources = [
 ]
 
 chrome_java_resources_to_remove = [
-    "java/res/drawable/ic_incognito.xml",
     "java/res/drawable-hdpi/bookmark_check_gray.png",
     "java/res/drawable-mdpi/bookmark_check_gray.png",
     "java/res/drawable-xhdpi/bookmark_check_gray.png",

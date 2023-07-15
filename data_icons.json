@@ -1,4 +1,7 @@
 {
+  "ic_share_white_24dp":{
+    "icon-name": "share-nodes"
+  },
   "ic_desktop_windows":{
     "icon-name": "display"
   },

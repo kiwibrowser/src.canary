@@ -88,7 +88,8 @@ kiwi_java_resources = [
     "java/res/drawable/ic_find_in_page.xml",
     "java/res/drawable/ic_new_window.xml",
     "java/res/drawable/ic_open_in_browser.xml",
-    "java/res/drawable/incognito_simple.xml"
+    "java/res/drawable/incognito_simple.xml",
+    "java/res/drawable/location_bar_incognito_badge.xml"
 ]
 
 chrome_java_resources_to_remove = [
@@ -316,5 +317,10 @@ chrome_java_resources_to_remove = [
     "java/res/drawable-mdpi/ics_languages.png",
     "java/res/drawable-xhdpi/ics_languages.png",
     "java/res/drawable-xxhdpi/ics_languages.png",
-    "java/res/drawable-xxxhdpi/ics_languages.png"
+    "java/res/drawable-xxxhdpi/ics_languages.png",
+    "java/res/drawable-hdpi/location_bar_incognito_badge.png",
+    "java/res/drawable-mdpi/location_bar_incognito_badge.png",
+    "java/res/drawable-xhdpi/location_bar_incognito_badge.png",
+    "java/res/drawable-xxhdpi/location_bar_incognito_badge.png",
+    "java/res/drawable-xxxhdpi/location_bar_incognito_badge.png"
 ]

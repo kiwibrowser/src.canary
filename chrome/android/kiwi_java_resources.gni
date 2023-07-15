@@ -91,7 +91,8 @@ kiwi_java_resources = [
     "java/res/drawable/incognito_simple.xml",
     "java/res/drawable/location_bar_incognito_badge.xml",
     "java/res/drawable/settings_cog.xml",
-    "java/res/drawable/ic_add_box_rounded_corner.xml"
+    "java/res/drawable/ic_add_box_rounded_corner.xml",
+    "java/res/drawable/ic_history_googblue_24dp.xml"
 ]
 
 chrome_java_resources_to_remove = [

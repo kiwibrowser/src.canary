@@ -1,4 +1,7 @@
 {
+  "ic_add_to_home_screen":{
+    "icon-name": "grid-2-plus"
+  },
   "ic_install_webapp":{
     "icon-name": "laptop-arrow-down"
   },

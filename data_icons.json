@@ -1,4 +1,7 @@
 {
+  "ic_install_webapp":{
+    "icon-name": "laptop-arrow-down"
+  },
   "ic_share_white_24dp":{
     "icon-name": "share-nodes"
   },

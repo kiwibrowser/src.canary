@@ -212,5 +212,17 @@
   },
   "ics_languages":{
     "icon-name": "languages"
-  }
+  },
+  "ic_find_in_page":{
+    "icon-name": "file-magnifying-glass"
+  },
+  "ic_new_window":{
+    "icon-name": "rectangle-history-circle-plus"
+  },
+  "ic_open_in_browser":{
+    "icon-name": "browser"
+  },
+  "incognito_simple":{
+    "icon-name": "user-secret"
+  },
 }

@@ -1,4 +1,7 @@
 {
+  "ic_desktop_windows":{
+    "icon-name": "display"
+  },
   "ic_folder_bookmarks":{
     "icon-name": "folder-bookmark"
   },

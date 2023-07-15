@@ -96,7 +96,8 @@ kiwi_java_resources = [
     "java/res/drawable/ic_folder_bookmarks.xml",
     "java/res/drawable/ic_folder_downloads.xml",
     "java/res/drawable/ic_translate.xml",
-    "java/res/drawable/ic_desktop_windows.xml"
+    "java/res/drawable/ic_desktop_windows.xml",
+    "java/res/drawable/ic_share_white_24dp.xml"
 ]
 
 chrome_java_resources_to_remove = [

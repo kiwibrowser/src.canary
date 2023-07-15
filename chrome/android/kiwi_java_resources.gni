@@ -84,7 +84,11 @@ kiwi_java_resources = [
     "java/res/drawable/omnibox_https_valid.xml",
     "java/res/drawable/ics_toolbar.xml",
     "java/res/drawable/chromelogo16.xml",
-    "java/res/drawable/ics_languages.xml"
+    "java/res/drawable/ics_languages.xml",
+    "java/res/drawable/ic_find_in_page.xml",
+    "java/res/drawable/ic_new_window.xml",
+    "java/res/drawable/ic_open_in_browser.xml",
+    "java/res/drawable/incognito_simple.xml"
 ]
 
 chrome_java_resources_to_remove = [

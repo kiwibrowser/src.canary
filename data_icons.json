@@ -1,4 +1,7 @@
 {
+  "ic_history_googblue_24dp":{
+    "icon-name": "clock-rotate-left",
+  },
   "bookmark_check_gray": {
     "icon-name": "check",
     "color": "@android:color/darker_gray"

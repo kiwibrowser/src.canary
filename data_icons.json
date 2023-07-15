@@ -1,4 +1,13 @@
 {
+  "ic_folder_bookmarks":{
+    "icon-name": "folder-bookmark"
+  },
+  "ic_folder_downloads":{
+    "icon-name": "folder-arrow-down"
+  },
+  "ic_translate":{
+    "icon-name": "language"
+  },
   "ic_history_googblue_24dp":{
     "icon-name": "clock-rotate-left"
   },
